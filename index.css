@@ -1,10 +1,4 @@
-.header-cont
-{
-  width:100%;
-  position:fixed;
-  top:0px;
-  margin: auto;
-}
+
 .footer-cont
 {
   width:100%;
@@ -14,6 +8,7 @@
 }
 header
 {
+  padding-top: 10em;
    margin-left:auto;
    overflow: hidden;
 }
@@ -36,9 +31,13 @@ aside
     max-width: 160px;
     margin:auto;
 }
+#p3 {
+  float: left;
+}
+
 .button
 {
-    background-color: brown; /* Green */
+    background-color: #731f5a;
     /*border: 1px solid green;*/
     color: white;
     padding: 15px 32px;
@@ -48,7 +47,7 @@ aside
     font-size 16px;
     cursor: pointer;
     float: left;
-    width: 25%;
+    width: 15%;
 }
 .button:hover
 {
